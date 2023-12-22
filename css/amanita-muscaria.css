@@ -1,6 +1,36 @@
+
 body {
-	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+margin:0;
 }
+nav {
+margin: 0;
+}
+ul {
+display: inline ;
+list-style-type: none;
+padding: 20px;
+margin: 0;
+text-align: center;
+}
+1i {
+display: inline ;
+font-size: 1.5em;
+font-family: Arial;
+line-height: 55px;
+}
+li a {
+display: inline ;
+text-decoration: none;
+color: lightgrey;
+padding: 20px 40px;
+}
+li a:hover {
+display: inline ;
+text-decoration: none;
+background-color: grey;
+color: white;
+}
+
 
 .portfolio-item {
 	margin-bottom: 25px;
@@ -8,4 +38,19 @@ body {
 
 footer {
 	margin: 50px 0;
+}
+.container {
+text-align:center;
+}
+ 
+
+.bg-image {
+width: 100vw;
+height: 100vh;
+object-fit: cover;
+filter: brightness (0.6);
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
 }
