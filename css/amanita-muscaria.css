@@ -1,6 +1,7 @@
 
 body {
 margin:0;
+background-color: #D49D9A;
 }
 nav {
 margin: 0;
@@ -15,25 +16,45 @@ text-align: center;
 1i {
 display: inline ;
 font-size: 1.5em;
+font-weight: bold;
 font-family: Arial;
 line-height: 55px;
 }
 li a {
 display: inline ;
 text-decoration: none;
-color: lightgrey;
+color: purple;
 padding: 20px 40px;
 }
 li a:hover {
 display: inline ;
 text-decoration: none;
-background-color: grey;
+background-color: purple;
 color: white;
 }
 
 
 .portfolio-item {
 	margin-bottom: 25px;
+}
+.portfolio-item:hover {
+	margin-bottom: 25px;
+text-decoration: none;
+background-color: purple;
+color: white;
+}
+.page-header:hover {
+	margin-bottom: 25px;
+text-decoration: none;
+background-color: purple;
+color: white;
+}
+
+.page-header a:hover {
+	margin-bottom: 25px;
+text-decoration: none;
+background-color: purple;
+color: white;
 }
 
 footer {
