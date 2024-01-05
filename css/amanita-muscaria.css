@@ -2,9 +2,11 @@
 body {
 margin:0;
 background-color: #D49D9A;
+	font-family: Arial;
 }
 nav {
 margin: 0;
+	text-align: center;
 }
 ul {
 display: inline ;
@@ -13,11 +15,11 @@ padding: 20px;
 margin: 0;
 text-align: center;
 }
-1i {
+li {
 display: inline ;
 font-size: 1.5em;
-font-weight: bold;
-font-family: Arial;
+
+
 line-height: 55px;
 }
 li a {
