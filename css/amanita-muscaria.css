@@ -1,11 +1,11 @@
 .links a{
-
-background-color: purple;
-color: white;
+color: black;
 	text-decoration: none;
+
 }
 .links a:hover{
-color: black;
+background-color: purple;
+color: white;
 	text-decoration: none;
 }
 body {
